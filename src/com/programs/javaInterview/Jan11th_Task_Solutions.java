@@ -15,8 +15,8 @@ public class Jan11th_Task_Solutions {
 				val = numberArr[i];
 			}
 		}
+		
 		System.out.println("largest value is :" + val);
-
 	}
 
 	public void appendUnderscoreBeforeUpperChar() {
@@ -190,16 +190,16 @@ public class Jan11th_Task_Solutions {
 
 	public static void main(String[] args) {
 		new Jan11th_Task_Solutions().largeValueInGivenArray();
-		new Jan11th_Task_Solutions().appendUnderscoreBeforeUpperChar();
-		new Jan11th_Task_Solutions().convertingAssendingArray();
-		new Jan11th_Task_Solutions().convertingAssendingArray1();
-		new Jan11th_Task_Solutions().findingMajorityElement();
-		new Jan11th_Task_Solutions().findingMajorityElement1();
-		new Jan11th_Task_Solutions().sentenceReverse();
-		new Jan11th_Task_Solutions().sentenceReverseAtSamePossition1();
-		new Jan11th_Task_Solutions().sentenceReverseAtSamePossition();
-		new Jan11th_Task_Solutions().nonRepeatingCharInAString();
-		new Jan11th_Task_Solutions().findPerfectSquareOrNot();
+//		new Jan11th_Task_Solutions().appendUnderscoreBeforeUpperChar();
+//		new Jan11th_Task_Solutions().convertingAssendingArray();
+//		new Jan11th_Task_Solutions().convertingAssendingArray1();
+//		new Jan11th_Task_Solutions().findingMajorityElement();
+//		new Jan11th_Task_Solutions().findingMajorityElement1();
+//		new Jan11th_Task_Solutions().sentenceReverse();
+//		new Jan11th_Task_Solutions().sentenceReverseAtSamePossition1();
+//		new Jan11th_Task_Solutions().sentenceReverseAtSamePossition();
+//		new Jan11th_Task_Solutions().nonRepeatingCharInAString();
+//		new Jan11th_Task_Solutions().findPerfectSquareOrNot();
 	}
 
 }
