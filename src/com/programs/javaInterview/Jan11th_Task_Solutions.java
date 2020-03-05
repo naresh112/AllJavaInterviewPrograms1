@@ -18,6 +18,19 @@ public class Jan11th_Task_Solutions {
 		
 		System.out.println("largest value is :" + val);
 	}
+	public void arrayReverse() {
+		int[] numberArr = { 28, 56, 5, 2, 6, 84, 12,1 };
+		int arrayLength=numberArr.length-1;
+		//System.out.println("array length "+arrayLength/2);
+		for (int i = 0; i < arrayLength/2; i++) {
+			int temp=numberArr[i];
+			numberArr[i]=numberArr[arrayLength-i];
+			numberArr[arrayLength-i]=temp;
+		}
+		for (int i = 0; i < numberArr.length; i++) {
+			System.out.println(numberArr[i]);
+		}
+	}
 
 	public void appendUnderscoreBeforeUpperChar() {
 		String temp = "";
@@ -189,7 +202,7 @@ public class Jan11th_Task_Solutions {
 	}
 
 	public static void main(String[] args) {
-		new Jan11th_Task_Solutions().largeValueInGivenArray();
+//		new Jan11th_Task_Solutions().largeValueInGivenArray();
 //		new Jan11th_Task_Solutions().appendUnderscoreBeforeUpperChar();
 //		new Jan11th_Task_Solutions().convertingAssendingArray();
 //		new Jan11th_Task_Solutions().convertingAssendingArray1();
@@ -200,6 +213,7 @@ public class Jan11th_Task_Solutions {
 //		new Jan11th_Task_Solutions().sentenceReverseAtSamePossition();
 //		new Jan11th_Task_Solutions().nonRepeatingCharInAString();
 //		new Jan11th_Task_Solutions().findPerfectSquareOrNot();
+		new Jan11th_Task_Solutions().arrayReverse();
 	}
 
 }
