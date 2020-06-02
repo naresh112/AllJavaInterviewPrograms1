@@ -19,6 +19,7 @@ public class ConvertALinkedListToArrayList {
       System.out.println(str);
     }
     System.out.println("**********");
+    System.out.println(list);
     LinkedList<String> linklist2=new LinkedList(list);
     for(String str:linklist2) {
     	System.out.println(str);
