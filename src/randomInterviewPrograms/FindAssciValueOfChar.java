@@ -1,4 +1,4 @@
-package naveenAutomationlabs90qes;
+package randomInterviewPrograms;
 
 public class FindAssciValueOfChar {
 

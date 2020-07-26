@@ -77,7 +77,7 @@ public class Jan11th_Task_Solutions {
 		}
 	}
 
-	public void findingMajorityElement() {
+	public void MostRepeatingElement() {
 		int[] a = { 10, 30, 30, 20, 30, 20, 20, 20, 30, 20 };
 		int value = 0;
 		int mostRepeatingElement = 0;
